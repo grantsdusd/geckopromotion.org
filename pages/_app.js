@@ -10,11 +10,9 @@ function GeckoPromotion({ Component, pageProps }) {
     </Head>
     <Component {...pageProps} />
     <header>
-      <br /><br/>
       <Link href={'/'}>2022</Link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <Link href={'/2021'}>2021</Link>
-      <br /><br/><br />
     </header>
   </>
 }

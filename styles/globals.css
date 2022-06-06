@@ -26,14 +26,17 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: fit-content;
+  padding: 20px;
   border-top: 3px solid #009b3a;
+  border-left: 3px solid #009b3a;
+  border-bottom: 3px solid #009b3a;
   height: fit-content;
   background: white;
   z-index: 999999;
   position: fixed;
-  bottom: 0;
-  left: 0;
+  bottom: 20px;
+  right: 0;
 }
 
 a {
